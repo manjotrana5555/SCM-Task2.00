@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    // constructor function
+
+function Person () {
+
+this.name = 'John',
+
+this.age = 23
+
+}
+
+// creating objects
+
+let person1 = new Person();
+
+let person2 = new Person();
+
+// adding property to person1 object
+
+person1.gender = 'male';
+
+// adding method to person1 object
+
+person1.greet = function () {
+
+console.log('hello');
+
+}
+
+person1.greet(); // hello
+
+// Error code
+
+// person2 doesn't have greet() method
+
+person2.greet();
+const count = new Boolean(true); 
+
+console.log(count); // true
+</script>
+</body>
+</html>
